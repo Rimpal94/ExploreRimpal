@@ -34,8 +34,8 @@ public class Flipkart extends Browser{
 
   @AfterTest
   public void afterTest() {
-	 //driver.close();
-	 //driver.quit();
+	 driver.close();
+	 driver.quit();
   }
 
 }
